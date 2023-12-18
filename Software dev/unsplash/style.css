@@ -17,3 +17,31 @@ body {
 img {
   width: 18%;
 }
+
+.btn {
+  position: absolute;
+  bottom: -80px;
+  background: rgba(25, 111, 186, 0.637);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 05px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(1.5);
+}
+
+#back {
+  left: 20%;
+}
+
+#next {
+  right: 20%;
+}
+
+input:focus {
+  box-shadow: 0 0 0 5px orange;
+  border: 1px solid orange;
+}
